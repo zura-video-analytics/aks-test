@@ -1,0 +1,16 @@
+[
+    {
+      "id":1,
+      "fromDate":"2019-11-22",
+      "toDate":"2019-11-23",
+      "reason":"Suffering from fever",
+      "status":0
+    },
+    {
+      "id":2,
+      "fromDate":"2019-02-12",
+      "toDate":"2019-02-12",
+      "reason":"Suffering from fever",
+      "status":1
+    }
+  ]

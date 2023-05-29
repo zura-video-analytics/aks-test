@@ -1,0 +1,71 @@
+{
+	"tilesData": {
+		"totalLeaves": 10,
+		"lastThreeMonths": 3,
+		"lastMonth": 1
+	},
+	"peronalInfo": {
+		"name":"Adam",
+		"designation":"Developer",
+		"proifleImage":"assets/images/avatar11.jpg"
+	},
+	"myTeam":[
+		{
+			"name":"Venkat",
+			"designation":"Developer",
+			"proifleImage":"assets/images/avatar11.jpg",
+			"totalLeaves":6,
+			"lastThreeMnths":3,
+			"lastMonth":1
+		},
+		{
+			"name":"Jagadish",
+			"designation":"Developer",
+			"proifleImage":"assets/images/avatar5.jpg",
+			"totalLeaves":6,
+			"lastThreeMnths":4,
+			"lastMonth":2
+		}
+	],
+	"yearlyLeaves": {
+		"categoryNames": [
+			"JAN",
+			"FEB",
+			"MAR"
+		],
+		"series": [{
+				"name": "2018",
+				"data": [1, 2, 3]
+			},
+			{
+				"name": "2019",
+				"data": [1, 1, 1]
+			}
+		]
+	},
+    "teamLeavesInfo":[{
+    "name":"Venkat",
+    "designation":"Developer",
+    "proifleImage":"assets/images/avatar5.jpg",
+    "leaveOn":"25-11-2019"    
+},
+                     {
+    "name":"Radha",
+    "designation":"Developer",
+    "proifleImage":"assets/images/avatar11.jpg",
+    "leaveOn":"27-11-2019"    
+},
+
+{
+    "name":"Hari",
+    "designation":"Developer",
+    "proifleImage":"assets/images/avatar5.jpg",
+    "leaveOn":"27-11-2019"    
+},
+{
+    "name":"Jagadish",
+    "designation":"Developer",
+    "proifleImage":"assets/images/avatar11.jpg",
+    "leaveOn":"27-11-2019"    
+}]
+}

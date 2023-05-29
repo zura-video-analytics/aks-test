@@ -1,0 +1,35 @@
+[{  
+    "name": "Venkat",
+    "designation": "Developer",
+    "proifleImage": "assets/images/avatar8.jpg",
+    "phone": "9291512847",
+    "email":"info@gmail.com",
+    "leaveOn":"2019-12-31"
+},
+{
+    "name": "Radha",
+    "designation": "Developer",
+    "proifleImage": "assets/images/avatar11.jpg",
+    "phone": "9291512847",
+    "email":"info@gmail.com",
+    "leaveOn":"2019-12-31"
+
+},
+{
+   "name": "Hari",
+   "designation": "Developer",
+   "proifleImage": "assets/images/avatar11.jpg",
+   "phone": "9291512847",
+   "email":"info@gmail.com",
+   "leaveOn":"2019-12-31"
+   
+},
+{
+   "name": "Jagadish",
+   "designation": "Developer",
+   "proifleImage": "assets/images/avatar5.jpg",
+   "phone": "9291512847",
+   "email":"info@gmail.com",
+   "leaveOn":"2019-12-31"   
+}
+]

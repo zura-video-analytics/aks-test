@@ -1,0 +1,39 @@
+[
+    {
+      "sno":1,
+      "date":"1-Jan-2019",
+      "day":"TuesDay",
+      "holiday":"New Year"
+    },
+    {
+        "sno":2,
+        "date":"1-Jan-2019",
+        "day":"TuesDay",
+        "holiday":"New Year"
+      },
+      {
+        "sno":3,
+        "date":"1-Jan-2019",
+        "day":"TuesDay",
+        "holiday":"New Year"
+      },
+      {
+        "sno":4,
+        "date":"1-Jan-2019",
+        "day":"TuesDay",
+        "holiday":"New Year"
+      },
+      {
+        "sno":5,
+        "date":"1-Jan-2019",
+        "day":"TuesDay",
+        "holiday":"New Year"
+      },
+      {
+        "sno":6,
+        "date":"1-Jan-2019",
+        "day":"TuesDay",
+        "holiday":"New Year"
+      }
+   
+]

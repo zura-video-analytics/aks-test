@@ -1,0 +1,14 @@
+{
+	"persoanlInfo": {
+        "name": "Adam",
+        "designation":"Developer",
+		"joingDate": "20-11-2015",
+		"bloodGroup": "B +ve",
+		"address": "MVP,Visakhapatnam,Andha Pradesh",
+        "phoneNo": "9291512846",
+        "proifleImage": "assets/images/avatar11.jpg"
+	},
+	"education": "Postgraduatation from Andhara University",
+	"skills": ["Html", "Java Script", "CSS", "Angular JS", "Angular", "Ionic"],
+	"projects": ["PCP", "Exam Prep", "ERP", "Rail Car", "Analytics", "Mobile Apps"]
+}

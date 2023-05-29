@@ -1,0 +1,156 @@
+{
+	"tilesData": {
+		"pendingApprovals": 10,
+		"myTeam": 3,
+		"todayLeaves": 1
+	},
+	"peronalInfo": {
+		"name": "Adam",
+		"designation": "Lead",
+		"proifleImage": "assets/images/avatar11.jpg"
+	},
+	"yearlyLeaves": {
+		"categoryNames": [
+			"JAN",
+			"FEB",
+			"MAR"
+		],
+		"series": [
+			{
+				"name": "2018",
+				"data": [
+					1,
+					2,
+					3
+				]
+			},
+			{
+				"name": "2019",
+				"data": [
+					1,
+					1,
+					1
+				]
+			}
+		]
+	},
+	"pendingApprovals": [
+		{
+			"name": "Venkat",
+			"designation": "Developer",
+			"proifleImage": "assets/images/avatar11.jpg",
+			"fromDate": "2019-12-31",
+			"toDate": "2020-1-2",
+			"reason": "Tour with family friends",
+			"status": 2,
+			"message": "Happy Journey and enjoy your trip",
+			"toDateType": "All Day",
+			"fromDateType": "All Day",
+			"leaveType": "multiple",
+			"noOfDays": 3
+		}
+	],
+	"myTeam": [
+		{
+			"name": "Venkat",
+			"designation": "Developer",
+			"proifleImage": "assets/images/avatar11.jpg",
+			"totalLeaves": 6,
+			"lastThreeMonths": 3,
+			"lastMonth": 1
+		},
+		{
+			"name": "Radha",
+			"designation": "Developer",
+			"proifleImage": "assets/images/avatar11.jpg",
+			"totalLeaves": 6,
+			"lastThreeMonths": 3,
+			"lastMonth": 1
+		},
+		{
+			"name": "Hari",
+			"designation": "Developer",
+			"proifleImage": "assets/images/avatar5.jpg",
+			"totalLeaves": 6,
+			"lastThreeMonths": 3,
+			"lastMonth": 1
+		},
+		{
+			"name": "Jagadish",
+			"designation": "Developer",
+			"proifleImage": "assets/images/avatar11.jpg",
+			"totalLeaves": 6,
+			"lastThreeMonths": 3,
+			"lastMonth": 1
+		}
+	],
+	"todayLeaves": [
+		{
+			"name": "Venkat",
+			"designation": "Developer",
+			"proifleImage": "assets/images/avatar11.jpg",
+			"reason": "Funciton",
+			"appliedDate": "25-11-2019",
+			"leavesDuration": 1
+		},
+		{
+			"name": "Radha",
+			"designation": "Developer",
+			"proifleImage": "assets/images/avatar11.jpg",
+			"reason": "Funciton",
+			"appliedDate": "25-11-2019",
+			"leavesDuration": 1
+		},
+		{
+			"name": "Hari",
+			"designation": "Developer",
+			"proifleImage": "assets/images/avatar5.jpg",
+			"reason": "Funciton",
+			"appliedDate": "25-11-2019",
+			"leavesDuration": 1
+		},
+		{
+			"name": "Jagadish",
+			"designation": "Developer",
+			"proifleImage": "assets/images/avatar11.jpg",
+			"reason": "Funciton",
+			"appliedDate": "25-11-2019",
+			"leavesDuration": 1
+		}
+	],
+	"teamInfo":[{  
+		"name": "Venkat",
+		"designation": "Developer",
+		"proifleImage": "assets/images/avatar8.jpg",
+		"phone": "9291512847",
+		"email":"info@gmail.com",
+		"leaveOn":"2019-12-31"
+	},
+	{
+		"name": "Radha",
+		"designation": "Developer",
+		"proifleImage": "assets/images/avatar11.jpg",
+		"phone": "9291512847",
+		"email":"info@gmail.com",
+		"leaveOn":"2019-12-31"
+	
+	},
+	{
+	   "name": "Hari",
+	   "designation": "Developer",
+	   "proifleImage": "assets/images/avatar11.jpg",
+	   "phone": "9291512847",
+	   "email":"info@gmail.com",
+	   "leaveOn":"2019-12-31"
+	   
+	},
+	{
+	   "name": "Jagadish",
+	   "designation": "Developer",
+	   "proifleImage": "assets/images/avatar5.jpg",
+	   "phone": "9291512847",
+	   "email":"info@gmail.com",
+	   "leaveOn":"2019-12-31"   
+	}
+	]
+}

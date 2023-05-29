@@ -1,0 +1,16 @@
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+table th{
+    border: 1px solid #222;
+    font-weight: bold;
+    padding:4px;
+}
+table td{
+    border: 1px solid #222;
+    padding:4px;
+}
+.btn-colm{
+    display: none;
+}

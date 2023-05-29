@@ -1,0 +1,36 @@
+[{
+    "id": 1,
+    "fromDateType": "All Day",
+    "toDateType": "All Day",
+    "leaveType": "multiple",
+    "fromDate": "2019-11-30",
+    "toDate": "2019-12-2",
+    "reason": "Family Tour",
+    "status": 0,
+    "message": null,
+    "noOfDays": 3
+},
+{
+    "id": 2,
+    "fromDateType": "All Day",
+    "toDateType": "All Day",
+    "leaveType": "multiple",
+    "noOfDays": 3,
+    "fromDate": "2019-12-20",
+    "reason": "Festival",
+    "toDate": "2019-12-22",
+    "status": 0
+},
+{
+    "id": 3,
+    "fromDate": "2019-12-31",
+    "toDate": "2020-1-2",
+    "reason": "Tour with family friends",
+    "status": 2,
+    "message": "Happy Journey and enjoy your trip",
+    "toDateType": "All Day",
+    "fromDateType": "All Day",
+    "leaveType": "multiple",
+    "noOfDays": 3
+}
+]
