@@ -31,7 +31,7 @@ name: Build and deploy an app to AKS
 
 on:
   push:
-    branches: ["release"]
+    branches: ["main"]
   workflow_dispatch:
 
 env:
@@ -39,7 +39,7 @@ env:
   CONTAINER_NAME: "leaveportal"
   RESOURCE_GROUP: "zura_cluster_group"
   CLUSTER_NAME: "zura_cluster"
-  DEPLOYMENT_MANIFEST_PATH: "your-deployment-manifest-path"
+  DEPLOYMENT_MANIFEST_PATH: "zuraregistry.azurecr.io"
 
 jobs:
   buildImage:
