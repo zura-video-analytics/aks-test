@@ -40,6 +40,6 @@ jobs:
 
           private-cluster: true
           manifests: |
-            manifests/leaveportal.yaml
+            leaveportal.yaml
           images: |
             zuraregistry.azurecr.io/leaveportal
