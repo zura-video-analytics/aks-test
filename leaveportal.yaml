@@ -1,0 +1,58 @@
+# First, add the API
+apiVersion: apps/v1
+# This will be the deployment setup
+kind: Deployment
+metadata:
+  # Name your Deployment here
+  name: leaveportal
+  labels:
+    # label your deployment
+    app: leaveportal
+spec:
+  # The number of pods/replicas to run
+  replicas: 1            
+  selector:
+    matchLabels:
+    # selector to match the pod
+      app: leaveportal
+  template:
+    metadata:
+      labels:
+      # label your pod
+        app: leaveportal
+    spec:
+      containers:
+      # Add the container name for Kubernetes
+      - name: leaveportal
+      # Add the local image name
+        image: zuraregistry.azurecr.io/leaveportal:latest
+        # never pull the image policy
+        imagePullPolicy: Always
+        ports:
+        # port for running the container
+        - containerPort: 80
+      imagePullSecrets:
+        - name: regcred
+    
+---
+# First, add the Service API
+apiVersion: v1
+# This will be the Service setup
+kind: Service
+metadata:
+  # Your service name
+  name: leaveportal-service 
+spec:
+  selector:
+    # selector that matches the pod
+    app: leaveportal
+  # type of service
+  type: LoadBalancer     
+  ports:
+  - protocol: TCP 
+    # port for exposing the service        
+    port: 4800
+    # portfor exposing the pod             
+    targetPort: 80
+    # port for exposing the node       
+    nodePort: 32010
